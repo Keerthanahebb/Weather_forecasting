@@ -1,0 +1,42 @@
+<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+
+  <div id="container">
+    <section class="main">
+    <input type="text" id="cityInput" placeholder="Enter Your city name">
+
+    <button style="background-color:black; color:#f4dd46;" onclick="getWeather()">Submit</button>
+
+  </div>
+  </section>
+
+
+  <section class="display">
+    <div id="wrapper">
+      <h2 id="city"></h2>
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <p id="wind-speed"></p>
+      <p id="error-message"></p>
+    </div>
+  </section>
+ 
+
+ 
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
